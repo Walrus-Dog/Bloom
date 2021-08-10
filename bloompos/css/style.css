@@ -1,0 +1,310 @@
+/* font-family: 'Cedarville Cursive', cursive;
+colors:
+text - light #ebeef0, dark #26292e
+border - #ffd8e5
+button- top grad #5c5b59, bot grad #26292e
+mid-sec-top-bg - top grad #e8fda6, low grad #e7718b
+mid-sec-mid-bg - #f4f4f6
+mid-sec-bot-bg - #ffffff
+mid-sec-bot-icon-bgs - border #bbc4d5, center #444444
+*/
+
+/* start generic */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* icons */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.sr-only {
+    display: none;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+.icon-bubbles2 {
+    width: 1.125em;
+}  
+
+.so-icon {
+    color: #292924;
+    background-color: #bbc4d5;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.so-icon:hover {
+    background-color: #9dc6f7;
+    transition: 0.3s;
+}
+
+.mid-sec-img {
+    font-size: 40px;
+}
+
+.mid-sec-img:hover {
+    color: #9dc6f7;
+}
+
+.low-sec-img {
+    color: #bbc4d5;
+    font-size: 50px;
+}
+
+.low-sec-img:hover {
+    background-color: #9dc6f7;
+}
+
+/* end icons */
+
+/* end generic */
+
+/* start header */
+
+.header {
+    position: relative;
+    background-color: #292924;
+}
+
+.main-header-section {
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.main-header-text {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 35px;
+    color: #ebeef0;
+}
+
+.top-nav {
+    position: absolute;
+    left: 1014px;
+    bottom: 20px;
+    margin-top: 10px;
+}
+
+.so-list-item {
+    padding-top: 10px;
+    display: inline;
+}
+
+/* end header */
+
+/* start main */
+
+.button {
+    border-radius: 10%;
+    padding: 5px;
+    background-color: #292924;
+    color: #ebeef0;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+}
+
+.button:hover {
+    background-color: #9dc6f7;
+    color: #292924;
+    transition: 0.3s;
+}
+
+/* start top main */
+
+.inner-main {
+    position: relative;
+}
+
+.top-section {
+    background-image:
+    linear-gradient(
+    to top, 
+    #e7718b, #ee8ca3
+    );
+    color: #ebeef0;
+    border-bottom: #ffd8e5 solid 5px;
+    font-family: Roboto, sans-serif;
+}
+
+.top-section-header {
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+}
+
+.block1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+}
+
+.block2 {
+    position: absolute;
+    left: 681px;
+    top: -0px;
+    width: 40%;
+}
+
+.laptop {
+    width: 100%;
+}
+
+/* end top main */
+
+/* start mid main */
+
+.mid-section {
+    background-color: #f4f4f6;
+    border-bottom: 10px solid #ffd8e5;
+}
+
+.mid-section .inner {
+    position: relative;
+}
+
+.mid-section-content {
+    padding: 10px;
+    width: 30%;
+    font-family: Roboto, sans-serif;
+    color: #292924;
+}
+
+.mid-sec-con2 {
+    position: absolute;
+    top: -0px;
+    left: 425px;
+}
+
+.mid-sec-con3 {
+    position: absolute;
+    top: -0px;
+    left: 850px;
+}
+
+.mid-sec-head-img {
+    position: relative;
+}
+
+.mid-section-header {
+    position: absolute;
+    top: -5px;
+    left: 70px;
+    font-size: 23px;
+}
+
+
+/* end mid main */
+
+/* start low main */
+
+.lower-section .inner {
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+}
+
+.products {
+    position: relative;
+    width: 650px;
+}
+
+.product:nth-child(2) {
+    position: absolute;
+    top: -0px;
+    left: 350px;
+}
+
+.product:nth-child(4) {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+.product {
+    margin-bottom: 40px;
+    width: 250px;
+    min-width: 250px;
+    min-height: 15vh;
+    background-color: #292924;
+    border: #bbc4d5 solid 5px;
+}
+
+.product:hover {
+    border: #9dc6f7 5px solid;
+}
+
+.lower-section-quotes {
+    position: absolute;
+    top: 715px;
+    left: 770px;
+    width: 40%;
+    font-family: Roboto, sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* end low main */
+
+/* start footer */
+
+.footer {
+    color: #bbc4d5;
+    background-color: #292924;
+}
+
+.footer .inner {
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.colophon {
+    margin-top: 60px;
+}
+
+.col-link {
+    color: #bbc4d5;
+}
+
+.col-link:hover {
+    color: #9dc6f7;
+}
+
+.footer-nav {
+    position: absolute;
+    top: -10px;
+    width: 30%;
+    left: 850px;
+}
+
+/* end footer */

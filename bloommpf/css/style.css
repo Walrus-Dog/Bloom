@@ -1,0 +1,280 @@
+/* font-family: 'Cedarville Cursive', cursive;
+colors:
+text - light #ebeef0, dark #26292e
+border - #ffd8e5
+button- top grad #5c5b59, bot grad #26292e
+mid-sec-top-bg - top grad #e8fda6, low grad #e7718b
+mid-sec-mid-bg - #f4f4f6
+mid-sec-bot-bg - #ffffff
+mid-sec-bot-icon-bgs - border #bbc4d5, center #444444
+*/
+
+/* start generic */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.clear {
+    clear: both;
+}
+
+.sr-only {
+    display: none;
+}
+
+/* icons */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+
+.icon-bubbles2 {
+    width: 1.125em;
+}
+
+.so-icon {
+    color: #292924;
+    background-color: #bbc4d5;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.so-icon:hover {
+    background-color: #9dc6f7;
+    transition: 0.3s;
+}
+
+.mid-sec-img {
+    font-size: 40px;
+}
+
+.mid-sec-img:hover {
+    color: #9dc6f7;
+}
+
+.low-sec-img {
+    color: #bbc4d5;
+    font-size: 50px;
+}
+
+.low-sec-img:hover {
+    color: #9dc6f7;
+}
+
+  /* end icons */
+
+/* end generic */
+
+/* start header */
+
+.header {
+    background-color: #292924;
+}
+
+.main-header-text {
+    margin: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 35px;
+    color: #ebeef0;
+}
+
+.top-nav {
+    float: right;
+    margin-top: -80px;
+    padding: 0;
+}
+
+.so-list-item {
+    padding-top: 10px;
+    display: inline;
+}
+
+/* end header */
+
+/* start main */
+
+.button {
+    border-radius: 10%;
+    padding: 5px;
+    background-color: #292924;
+    color: #ebeef0;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+}
+
+.button:hover {
+    background-color: #9dc6f7;
+    color: #292924;
+    transition: 0.3s;
+}
+
+/* start top main */
+
+.top-section {
+    background-image:
+    linear-gradient(
+    to top, 
+    #e7718b, #ee8ca3
+    );
+    color: #ebeef0;
+    border-bottom: #ffd8e5 solid 5px;
+    font-family: Roboto, sans-serif;
+}
+
+.top-section-header {
+    font-size: 25px;
+}
+
+.block1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+}
+
+.block2 {
+    float: right;
+    margin-top: -290px;
+    width: 40%;
+}
+
+.laptop {
+    width: 100%;
+}
+
+/* end top main */
+
+/* start mid main */
+
+.mid-section {
+    background-color: #f4f4f6;
+    border-bottom: 10px solid #ffd8e5;
+}
+
+.mid-section-content {
+    padding: 10px;
+    width: 30%;
+    font-family: Roboto, sans-serif;
+    color: #292924;
+}
+
+.mid-sec-con2 {
+    float: right;
+    margin-top: -302px;
+    margin-right: 425px;
+}
+
+.mid-sec-con3 {
+    float: right;
+    margin-top: -302px;
+}
+
+.mid-section-header {
+    font-size: 23px;
+}
+
+/* end mid main */
+
+/* start low main */
+
+.lower-section .inner {
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+}
+
+.products {
+    width: 800px;
+}
+
+.product:nth-child(2) {
+    float: right;
+    margin-top: -153px;
+    margin-right: 160px;
+}
+
+.product:nth-child(4) {
+    float: right;
+    margin-top: -153px;
+    margin-right: 160px;
+}
+
+.product {
+    margin-bottom: 40px;
+    width: 300px;
+    min-width: 250px;
+    min-height: 15vh;
+    background-color: #292924;
+    border: #bbc4d5 solid 5px;
+}
+
+.product:hover {
+    border: #9dc6f7 5px solid;
+}
+
+.lower-section-quotes {
+    float: right;
+    margin-top: -340px;
+    width: 40%;
+    font-family: Roboto, sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* end low main */
+
+/* start footer */
+
+.footer {
+    height: 100px;
+    color: #bbc4d5;
+    background-color: #292924;
+}
+
+.bot-nav {
+    float: right;
+    margin-top: -30px;
+}
+.colophon {
+    padding-top: 20px;
+}
+
+.col-link {
+    color: #bbc4d5;
+}
+
+.col-link:hover {
+    color: #9dc6f7;
+}
+
+/* end footer */

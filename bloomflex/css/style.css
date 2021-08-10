@@ -1,0 +1,276 @@
+/* font-family: 'Cedarville Cursive', cursive;
+colors:
+text - light #ebeef0, dark #26292e
+border - #ffd8e5
+button- top grad #5c5b59, bot grad #26292e
+mid-sec-top-bg - top grad #e8fda6, low grad #e7718b
+mid-sec-mid-bg - #f4f4f6
+mid-sec-bot-bg - #ffffff
+mid-sec-bot-icon-bgs - border #bbc4d5, center #444444
+*/
+
+/* start generic */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.sr-only {
+    display: none;
+}
+
+/* icons */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+
+.icon-bubbles2 {
+    width: 1.125em;
+}
+
+.so-icon {
+    color: #292924;
+    background-color: #bbc4d5;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.so-icon:hover {
+    background-color: #9dc6f7;
+    transition: 0.3s;
+}
+
+.mid-sec-img {
+    font-size: 40px;
+}
+
+.mid-sec-img:hover {
+    color: #9dc6f7;
+}
+
+.low-sec-img {
+    color: #bbc4d5;
+    font-size: 50px;
+    display: block;
+    margin: 15% auto;
+}
+
+.low-sec-img:hover {
+    color: #9dc6f7;
+}
+
+/* end icons */
+
+/* end generic */
+
+/* start header */
+
+.header {
+    background-color: #292924;
+}
+
+.main-header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header-text {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 35px;
+    color: #ebeef0;
+}
+
+.top-nav {
+    margin-top: 10px;
+}
+
+.so-list-item {
+    padding-top: 10px;
+    display: inline;
+}
+
+/* end header */
+
+/* start main */
+
+.button {
+    border-radius: 10%;
+    padding: 5px;
+    background-color: #292924;
+    color: #ebeef0;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+}
+
+.button:hover {
+    background-color: #9dc6f7;
+    color: #292924;
+    transition: 0.3s;
+}
+
+/* start top main */
+
+.inner-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section {
+    background-image:
+    linear-gradient(
+    to top, 
+    #e7718b, #ee8ca3
+    );
+    color: #ebeef0;
+    border-bottom: #ffd8e5 solid 5px;
+    font-family: Roboto, sans-serif;
+}
+
+.top-section-header {
+    font-size: 25px;
+}
+
+.block1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+}
+
+.block2 {
+    width: 40%;
+    display: flex;
+}
+
+.laptop {
+    width: 170%;
+}
+
+/* end top main */
+
+/* start mid main */
+
+.mid-section {
+    background-color: #f4f4f6;
+    border-bottom: 10px solid #ffd8e5;
+}
+
+.mid-section .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-section-content {
+    padding: 10px;
+    width: 30%;
+    font-family: Roboto, sans-serif;
+    color: #292924;
+}
+
+.mid-section-header {
+    font-size: 23px;
+}
+
+.mid-sec-head-img {
+    display: flex;
+}
+
+/* end mid main */
+
+/* start low main */
+
+.lower-section .inner {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+}
+
+.lower-section-imgs {
+    width: 50%;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    margin-bottom: 40px;
+    width: 40%;
+    min-width: 250px;
+    min-height: 15vh;
+    background-color: #292924;
+    border: #bbc4d5 solid 5px;
+}
+
+.product:hover {
+    border: #9dc6f7 5px solid;
+}
+
+.lower-section-quotes {
+    width: 40%;
+    font-family: Roboto, sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* end low main */
+
+/* start footer */
+
+.footer {
+    color: #bbc4d5;
+    background-color: #292924;
+}
+
+.footer .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colophon {
+    margin-top: 35px;
+}
+
+.col-link {
+    color: #bbc4d5;
+}
+
+.col-link:hover {
+    color: #9dc6f7;
+}
+
+/* end footer */
